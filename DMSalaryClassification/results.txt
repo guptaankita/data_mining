@@ -1,0 +1,138 @@
+Train Instances : 32561
+Test Instances  : 16281
+---------------------Running Classifiers on given DataSet---------------------
+Model    : J48
+Train Accuracy : 87.8566 %
+Test Accuracy : 85.8485 %
+
+Model    : NBTree
+Train Accuracy : 86.6927 %
+Test Accuracy : 86.1618 %
+
+Model    : NaiveBayes
+Train Accuracy : 83.4465 %
+Test Accuracy : 83.1276 %
+
+Model    : Logistic
+Train Accuracy : 84.8960 %
+Test Accuracy : 84.7859 %
+
+Model    : SMO
+Train Accuracy : 82.9919 %
+Test Accuracy : 83.2873 %
+
+
+-------Ensemble Method--------
+Following classifiers implemented in bags : 
+J48
+NBTree
+NaiveBayes
+Test Accuracy : 82.9740 %
+Train Accuracy : 59.6769 %
+
+---------------------Feature Selection---------------------
+-----Remove Features workclass,fnlwgt,education,marital-status,occupation,native-country-----
+Model    : J48
+Train Accuracy : 86.5760 %
+Test Accuracy : 86.0144 %
+
+Model    : NBTree
+Train Accuracy : 85.0650 %
+Test Accuracy : 84.6570 %
+
+Model    : NaiveBayes
+Train Accuracy : 81.0909 %
+Test Accuracy : 81.0638 %
+
+Model    : Logistic
+Train Accuracy : 84.2388 %
+Test Accuracy : 84.2577 %
+
+Model    : SMO
+Train Accuracy : 82.1535 %
+Test Accuracy : 82.4765 %
+
+-----Ensemble with feature selection-----
+Following classifiers implemented in bags : 
+J48
+NBTree
+NaiveBayes
+Test Accuracy : 85.7441 %
+Train Accuracy : 66.6114 %
+
+---------------------Over Sampling---------------------
+Total Instances:48243
+Instances of Class : >50 - 23523
+Instances of Class : <=50 - 24720
+-----OverSampling-----
+-----Run all other classifiers-----
+Model    : J48
+Train Accuracy : 91.9491 %
+Test Accuracy : 82.2615 %
+
+Model    : NBTree
+Train Accuracy : 83.2701 %
+Test Accuracy : 81.0270 %
+
+Model    : NaiveBayes
+Train Accuracy : 75.9385 %
+Test Accuracy : 83.3487 %
+
+Model    : Logistic
+Train Accuracy : 81.6595 %
+Test Accuracy : 78.7359 %
+
+Model    : SMO
+Train Accuracy : 78.4425 %
+Test Accuracy : 75.9658 %
+
+
+---------------------Over Sampling With Feature Selection---------------------
+Total Instances:48243
+Instances of Class : >50K - 23523
+Instances of Class : <=50K - 24720
+Removing attributes 2,3,4,6,7,14
+Model    : J48
+Train Accuracy : 86.0374 %
+Test Accuracy : 80.8980 %
+
+Model    : NBTree
+Train Accuracy : 84.1739 %
+Test Accuracy : 81.8254 %
+
+Model    : NaiveBayes
+Train Accuracy : 65.3877 %
+Test Accuracy : 80.2715 %
+
+Model    : Logistic
+Train Accuracy : 81.5103 %
+Test Accuracy : 79.9767 %
+
+Model    : SMO
+Train Accuracy : 76.0753 %
+Test Accuracy : 72.0103 %
+
+
+---------------------Running SMOTE---------------------
+Model    : J48
+Train Accuracy : 89.5995 %
+Test Accuracy : 85.6704 %
+
+Model    : NBTree
+Train Accuracy : 88.0897 %
+Test Accuracy : 85.1115 %
+
+Model    : NaiveBayes
+Train Accuracy : 81.8029 %
+Test Accuracy : 83.6988 %
+
+Model    : Logistic
+Train Accuracy : 85.2829 %
+Test Accuracy : 83.0539 %
+
+Model    : SMO
+Train Accuracy : 83.0008 %
+Test Accuracy : 80.3698 %
+
+
+--------- Project Execution Completion ----------

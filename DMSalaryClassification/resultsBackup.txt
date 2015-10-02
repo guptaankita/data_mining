@@ -1,0 +1,263 @@
+Train Instances : 32561
+Test Instances  : 16281
+-----Over Sampling With Feature Selection -----
+Total Instances:48243
+Instances of Class : 0 - 23523
+Instances of Class : 1 - 24720
+-----OverSampling With Selected Features after removing attributes 2,3,4,6,7,14-----
+Run All other classifiers
+.....Running J48.....
+Running J48 with input train data..
+
+Model    : J48
+Accuracy : 86.0374 %
+Running J48 with test data..
+
+Model    : J48
+Accuracy : 80.8980 %
+.....Running NBTree......
+Running NBTree with input data..
+
+Model    : NBTree
+Accuracy : 84.1739 %
+Running NBTree with test data..
+
+Model    : NBTree
+Accuracy : 81.8254 %
+.....Running Naive Bayes....
+Running Naive Bayes with train data..
+
+Model    : NaiveBayes
+Accuracy : 65.3877 %
+Running Naive Bayes with test data..
+
+Model    : NaiveBayes
+Accuracy : 80.2715 %
+.....Running Logistic....
+Running Logistic with train data..
+
+Model    : Logistic
+Accuracy : 81.5103 %
+Running Logistic with test data..
+
+Model    : Logistic
+Accuracy : 79.9767 %
+.....Running SMO....
+Running SMO with train data..
+
+Model    : SMO
+Accuracy : 76.0753 %
+Running SMO with test data..
+
+Model    : SMO
+Accuracy : 72.0103 %
+-----Over Sampling -----
+Total Instances:48243
+Instances of Class : <=50 - 23523
+Instances of Class : >50 - 24720
+-----OverSampling-----
+-----Run all other classifiers-----
+.....Running J48.....
+Running J48 with input train data..
+
+Model    : J48
+Accuracy : 91.9491 %
+Running J48 with test data..
+
+Model    : J48
+Accuracy : 82.2615 %
+.....Running NBTree......
+Running NBTree with input data..
+
+Model    : NBTree
+Accuracy : 83.2701 %
+Running NBTree with test data..
+
+Model    : NBTree
+Accuracy : 81.0270 %
+.....Running Naive Bayes....
+Running Naive Bayes with train data..
+
+Model    : NaiveBayes
+Accuracy : 75.9385 %
+Running Naive Bayes with test data..
+
+Model    : NaiveBayes
+Accuracy : 83.3487 %
+.....Running Logistic....
+Running Logistic with train data..
+
+Model    : Logistic
+Accuracy : 81.6595 %
+Running Logistic with test data..
+
+Model    : Logistic
+Accuracy : 78.7359 %
+.....Running SMO....
+Running SMO with train data..
+
+Model    : SMO
+Accuracy : 78.4425 %
+Running SMO with test data..
+
+Model    : SMO
+Accuracy : 75.9658 %
+-----Selected Features -----
+-----Selected Features 2,3,4,6,7,14-----
+.....Running J48.....
+Running J48 with input train data..
+
+Model    : J48
+Accuracy : 86.5760 %
+Running J48 with test data..
+
+Model    : J48
+Accuracy : 86.0144 %
+.....Running NBTree......
+Running NBTree with input data..
+
+Model    : NBTree
+Accuracy : 85.0650 %
+Running NBTree with test data..
+
+Model    : NBTree
+Accuracy : 84.6570 %
+.....Running Naive Bayes....
+Running Naive Bayes with train data..
+
+Model    : NaiveBayes
+Accuracy : 81.0909 %
+Running Naive Bayes with test data..
+
+Model    : NaiveBayes
+Accuracy : 81.0638 %
+.....Running Logistic....
+Running Logistic with train data..
+
+Model    : Logistic
+Accuracy : 84.2388 %
+Running Logistic with test data..
+
+Model    : Logistic
+Accuracy : 84.2577 %
+.....Running SMO....
+Running SMO with train data..
+
+Model    : SMO
+Accuracy : 82.1535 %
+Running SMO with test data..
+
+Model    : SMO
+Accuracy : 82.4765 %
+Run Ensemble with feature selection...
+Following classifiers implemented in bags : 
+J48
+NBTree
+NaiveBayes
+
+Test Accuracy : 84.8842 %
+
+Train Accuracy : 67.7538 %
+Running the classifiers without handling imbalance or feature selection
+Running J48...........
+Running J48 with input data
+
+Model    : J48
+Accuracy : 87.8566 %
+Running J48 with test data
+
+Model    : J48
+Accuracy : 85.8485 %
+Running NBTree........
+Running NBTree with input data
+
+Model    : NBTree
+Accuracy : 86.6927 %
+Running NBTree with test data
+
+Model    : NBTree
+Accuracy : 86.1618 %
+Running Naive Bayes....
+Running Naive Bayes with input data
+
+Model    : NaiveBayes
+Accuracy : 83.4465 %
+Running Naive Bayes with test data
+
+Model    : NaiveBayes
+Accuracy : 83.1276 %
+Running Logistic....
+Running Logistic with input data
+
+Model    : Logistic
+Accuracy : 84.8960 %
+Running Logistic with test data
+
+Model    : Logistic
+Accuracy : 84.7859 %
+Running SMO....
+Running SMO with train data..
+
+Model    : SMO
+Accuracy : 82.9919 %
+Running SMO with test data..
+
+Model    : SMO
+Accuracy : 83.2873 %
+-----ENSEMBLE METHOD-----
+Following classifiers implemented in bags : 
+J48
+NBTree
+NaiveBayes
+
+Test Accuracy : 81.7640 %
+
+Train Accuracy : 58.0124 %
+Running Smote....
+.....Running J48.....
+Running J48 with input train data..
+
+Model    : J48
+Accuracy : 89.5995 %
+Running J48 with test data..
+
+Model    : J48
+Accuracy : 85.6704 %
+.....Running NBTree......
+Running NBTree with input data..
+
+Model    : NBTree
+Accuracy : 88.0897 %
+Running NBTree with test data..
+
+Model    : NBTree
+Accuracy : 85.1115 %
+.....Running Naive Bayes....
+Running Naive Bayes with train data..
+
+Model    : NaiveBayes
+Accuracy : 81.8029 %
+Running Naive Bayes with test data..
+
+Model    : NaiveBayes
+Accuracy : 83.6988 %
+.....Running Logistic....
+Running Logistic with train data..
+
+Model    : Logistic
+Accuracy : 85.2829 %
+Running Logistic with test data..
+
+Model    : Logistic
+Accuracy : 83.0539 %
+.....Running SMO....
+Running SMO with train data..
+
+Model    : SMO
+Accuracy : 83.0008 %
+Running SMO with test data..
+
+Model    : SMO
+Accuracy : 80.3698 %
+
+--------- Project Execution Completion ----------

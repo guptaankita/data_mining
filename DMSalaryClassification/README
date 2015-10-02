@@ -1,0 +1,18 @@
+Executable:
+SalaryClassifier.jar 
+
+To run the given jar you will need to provide data, test and names files.
+please execute following command
+java -jar SalaryClassifier.jar census-income.data census-income.test census-income.names
+
+This will execute the java salary classifier program and generate results.txt file. 
+Execution completes in about 20-25 minutes.
+results.txt file contains the result of execution with accuracy of implemented models.
+
+Running the program will also generate census-income-input.arff and census-income-test.arff temporary files. 
+Please do not delete those files.
+
+Source Code:
+In the DMSalaryClassification folder contains entire source code files and resources.
+If needed this folder can be imported to eclipse and executed from there.
+
